@@ -1,13 +1,5 @@
-
 function App() {
-
-  return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+  return <main></main>;
 }
 
-export default App
+export default App;
