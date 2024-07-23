@@ -1,6 +1,6 @@
 import { motion, useCycle } from "framer-motion";
 import { useRef } from "react";
-import { useDimensions } from "../../hook/useDimensions";
+import { useDimensions } from "../hook/useDimensions";
 import MenuToggle from "./menuToggle";
 import { Navigation } from "./navigation";
 
@@ -30,7 +30,7 @@ export default function Menu() {
     const { height } = useDimensions(containerRef);
 
     return (
-        <motion.nav className="absolute top-0 left-0 bottom-0 w-80">
+        <motion.nav className="absolute top-0 left-0 bottom-0 w-80 z-50">
             <motion.div
                 initial={false}
                 animate={isOpen ? "open" : "closed"}

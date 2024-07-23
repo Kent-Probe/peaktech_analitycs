@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import Header from "../ui/header";
 import LoginForm from "./loginForm";
+import Header from "./ui/header";
 
 const screen = {
     hidden: { opacity: 0, y: 50 },

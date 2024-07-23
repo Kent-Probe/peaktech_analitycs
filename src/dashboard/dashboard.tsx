@@ -1,22 +1,18 @@
-import Menu from "./ui/menu";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Statistics from "./ui/statistics";
 
 export default function Dashboard() {
     return (
-        <div className="constainer-dashboard">
-            <Menu />
+        <div className="w-full p-10">
+            <header className="bg-white min-h-20 w-full rounded-lg flex justify-center items-center gap-5 text-3xl font-Releway font-bold text-secondary mb-5">
+                <h1>Bodytech Colombia.</h1>
+                <FontAwesomeIcon
+                    className="text-blue-500"
+                    icon={faInfoCircle}
+                />
+            </header>
+            <Statistics />
         </div>
     );
 }
-
-/* 
-className="bg-gradient-to-b from-[rgba(248,0,255,1)_0%] to-[rgba(179,0,255,1)_100%]"
-width: 100vw;
-    height: 100vh;
-    background: linear-gradient(180deg, rgba(248,0,255,1) 0%, rgba(179,0,255,1) 100%);
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-*/

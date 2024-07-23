@@ -9,9 +9,9 @@
     width: 100vw;
     height: 100vh;
     background: linear-gradient(
-        180deg,
-        rgba(248, 0, 255, 1) 0%,
-        rgba(179, 0, 255, 1) 100%
+        to right,
+        #efefef 50%,
+        #EA5600 50%
     );
     overflow: hidden;
     padding: 0;
@@ -20,6 +20,14 @@
     justify-content: center;
     align-items: center;
 }
+
+/* 
+background: linear-gradient(
+        180deg,
+        rgba(248, 0, 255, 1) 0%,
+        rgba(179, 0, 255, 1) 100%
+    );
+*/
 
 /* body {
     color: #fff;
