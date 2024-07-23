@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url("../fonts/berlin-sans-fb-webfont/berlinSansFB.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.constainer-dashboard {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        180deg,
+        rgba(248, 0, 255, 1) 0%,
+        rgba(179, 0, 255, 1) 100%
+    );
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* body {
+    color: #fff;
+    background: linear-gradient(180deg, rgba(33,37,41,1) 0%, rgba(35,45,55,1) 100%);
+    background: linear-gradient(180deg, rgba(33,37,41,1) 0%, rgba(26,26,26,1) 100%);
+    background-size: 100% 100vh;
+} */
